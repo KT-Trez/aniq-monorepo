@@ -1,0 +1,14 @@
+{
+  "devDependencies": {
+    "@aniq/typescript-config": "*"
+  },
+  "exports": {},
+  "name": "@aniq/types",
+  "scripts": {
+    "dev": "tsc --watch",
+    "lint": "biome lint",
+    "lint:fix": "biome check --write",
+    "typecheck": "tsc --noEmit"
+  },
+  "type": "module"
+}

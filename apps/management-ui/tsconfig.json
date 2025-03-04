@@ -1,0 +1,4 @@
+{
+  "extends": "@aniq/typescript-config/src/vite.json",
+  "include": ["src"]
+}

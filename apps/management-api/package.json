@@ -1,0 +1,20 @@
+{
+  "dependencies": {
+    "@aniq/utils": "*"
+  },
+  "devDependencies": {
+    "@aniq/types": "*",
+    "@aniq/typescript-config": "*",
+    "@types/node": "^22.13.9"
+  },
+  "main": "./src/main.ts",
+  "name": "@aniq/management-api",
+  "scripts": {
+    "build": "tsc",
+    "dev": "node --experimental-strip-types --watch src/main.ts",
+    "lint": "biome lint",
+    "lint:fix": "biome check --write",
+    "typecheck": "tsc --noEmit"
+  },
+  "type": "module"
+}

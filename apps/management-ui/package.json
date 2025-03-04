@@ -1,0 +1,21 @@
+{
+  "dependencies": {
+    "@aniq/utils": "*"
+  },
+  "devDependencies": {
+    "@aniq/typescript-config": "*",
+    "@aniq/types": "*",
+    "typescript": "~5.7.2",
+    "vite": "^6.2.0"
+  },
+  "name": "@aniq/management-ui",
+  "scripts": {
+    "build": "vite build",
+    "dev": "vite",
+    "lint": "biome lint",
+    "lint:fix": "biome check --write",
+    "preview": "vite preview",
+    "typecheck": "tsc --noEmit"
+  },
+  "type": "module"
+}

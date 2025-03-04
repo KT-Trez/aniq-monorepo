@@ -1,0 +1,16 @@
+{
+  "$schema": "https://biomejs.dev/schemas/1.9.4/schema.json",
+  "extends": ["../../biome.json"],
+  "linter": {
+    "include": ["libs/**/*", "apps/**/*"],
+    "rules": {
+      "correctness": {
+        "noNodejsModules": "off",
+        "noUndeclaredDependencies": "off"
+      },
+      "style": {
+        "useNamingConvention": "off"
+      }
+    }
+  }
+}

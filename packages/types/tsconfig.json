@@ -1,0 +1,4 @@
+{
+  "extends": "@aniq/typescript-config/src/lib.json",
+  "include": ["src"]
+}
